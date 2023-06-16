@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 100px;
+}
+#brand_logo a {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: cursive;
+}
+#active-nav {
+  background-color: #021c70;
+}
+
+.hero_texts {
+  padding: 100px 20px;
+}
+.hero_texts h1 {
+  color: #021c70;
+}
+.btn {
+  background-color: #021c70;
+  color: #fff;
+}
+.option {
+  border-radius: 50px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 50px auto 50px;
+  box-shadow: 5px 5px 35px 5px rgba(0, 0, 0, 0.2);
+}
+.dropdown-toggle {
+  font-weight: 700;
+  color: #021c70;
+}
+.section_header {
+  margin: 50px 0;
+  text-align: center;
+}
+.section_header h1 {
+  color: #021c70;
+}
+
+.about_content,
+.testimonial_content {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 5px 5px 35px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-out;
+}
+.section2_texts {
+  padding: 100px 0px 100px 50px;
+}
+.section2_texts h1 {
+  color: #021c70;
+}
+.img_container {
+  width: 40vw;
+  height: 60vh;
+  object-fit: contain;
+}
+.row_img {
+  width: auto;
+  height: 300px;
+}
+.row_img img {
+  padding: 20px;
+}
+.img_container img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+.properties_container {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  box-shadow: 5px 5px 35px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+.properties_container:hover img {
+  transform: scale(1.08);
+}
+.testimonial_content {
+  text-align: left;
+}
+.properties_details {
+  padding: 10px 20px;
+}
+:hover.testimonial_content,
+:hover.about_content {
+  transform: scale(1.08);
+}
+footer {
+  padding: 50px;
+  background-color: #021c70;
+  color: white;
+}
+footer h3 {
+  margin-left: 20px;
+}
+footer li {
+  list-style: none;
+}
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991.98px) {
+  .img_container {
+    height: auto;
+  }
+  .img_container img {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .hero {
+    margin: 10px 50px;
+  }
+  .sec2_img {
+    width: auto;
+  }
+  .testimonial_content,
+  .about_content,
+  .properties_container {
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .dropdown-toggle {
+    font-weight: normal;
+    font-size: small;
+  }
+}
